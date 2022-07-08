@@ -1,0 +1,10 @@
+\documentclass{article}
+\usepackage[subfolder, cleanup]{gnuplottex}
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\usepackage[nogin]{Sweave}
+hola probando
+
+\begin{gnuplot}[terminal=cairolatex]
+plot sin(x)
+\end{document}
